@@ -10,3 +10,9 @@ For first use, install the file system:
 Then, you can build the docker file:
 
     sudo docker build . -t codersos/ubuntu-debootstrap
+
+If you like, you can push the image.
+
+    docker login
+    docker push codersos/ubuntu-debootstrap
+
